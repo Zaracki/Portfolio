@@ -8,6 +8,8 @@ body {
   display: block;
   position: relative;
   min-height: 100vh;
+  background-color: #17213F;
+  color: #ffffff;
 }
 
 main,
@@ -22,7 +24,7 @@ footer {
 p {
   font-size: 16px;
   font-weight: 400;
-
+  color: #E4E4E4;
 }
 
 
@@ -33,23 +35,22 @@ h1 {
 
 h2 {
   font-size: 25px;
+  margin: 50px 0px 20px 0px;
+  
 }
 
 h3 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 700;
+  color: #D6DDF1;
 }
 
 header{
   text-align: center;
+  margin-bottom: 50px;
 }
 
-
-
-h2 {
-  margin: 20px 0px 20px 0px;
-}
 
 .about-section {
   text-align: center;
@@ -60,6 +61,7 @@ h2 {
   margin-top: 10px;
 }
 
+
 .card-wrap {
   display: flex;
   flex-direction: row;
@@ -68,15 +70,19 @@ h2 {
 }
 
 .card {
-  border: solid 3px #000000;
+  border: solid 0px;
   max-width: 420px;
   border-radius: 5px;
+  background-color: #0F162B;
+}
+
+.card p {
+  color: #8B96B7;
 }
 
 .card img {
   overflow: hidden;
-  max-width: 400px;
-  padding: 10px 10px 0px 10px;
+  border-radius: 3px 3px 0px 0px;
 }
 
 .card-info {
@@ -84,12 +90,12 @@ h2 {
 }
 
 .icon-links {
-  margin-top: 10px;
+  margin: 20px 0px 20px 0px;
   font-size: 20px;
 }
 
 .icon-links i {
-  color: #000000;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -132,11 +138,9 @@ footer p {
   }
 
   .card,
+  .card img,
   .about-section {
     max-width: 320px;
   }
 
-  .card img {
-    max-width: 300px;
-  }
 }
