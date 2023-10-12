@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c7b67ab2c9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>Portfolio</title>
 </head>
 <body>
@@ -14,26 +18,25 @@
     <section>
       <h1>My page!</h1>
     </section>
-    <section>
+    <section class="projects-section">
       <h2>My projects</h2>
       <div class="card-wrap">
         <div class="card">
           <img src="/images/Frame 5.png">
           <div class="card-info">
             <h3>Cinebite</h3>
-            <p>Noe tekst</p>
-            <div>
-              <a></a>
-              <a></a>
+            <p>A blog review website created with Javascript, HTML and CSS. Fetching from Wordpress API to display each post and content.</p>
+            <div class="icon-links">
+              <a><i class="fa-brands fa-github"></i></a>
+              <a href="https://cinebite.netlify.app"><i class="fa-solid fa-link"></i></a>
             </div> 
           </div>
         </div>
-
         <div class="card">
           <img src="/images/Frame 5-2.png">
           <div class="card-info">
-            <h3>Cinebite</h3>
-            <p>Noe tekst</p>
+            <h3>Community Science Museum</h3>
+            <p>A museum website created with HTML and CSS.</p>
             <div>
               <a></a>
               <a></a>
@@ -43,7 +46,7 @@
         <div class="card">
           <img src="/images/Frame 5-3.png">
           <div class="card-info">
-            <h3>Cinebite</h3>
+            <h3>Square Eyes</h3>
             <p>Noe tekst</p>
             <div>
               <a></a>
@@ -53,10 +56,23 @@
         </div>
       </div>
     </section>
+    <section class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-icons">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-square-js"></i>
+        <i class="fa-brands fa-wordpress"></i>
+      </div>
+    </section>
+    <section class="contact-section">
+      <h2>Contact</h2>
+      <p>Email: Alexander@a33.no</p>
+    </section>
 
   </main>
   <footer>
-
+    <p class="copy-2022">&copy; 2023 Alexander Weidemann</p>
   </footer>
 </body>
 </html>

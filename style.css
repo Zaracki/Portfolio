@@ -1,14 +1,31 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "roboto slab","roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
   display: block;
+  position: relative;
+  min-height: 100vh;
+}
+
+main,
+h2,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 16px;
 }
 
 h1 {
   font-size: 36px;
+  justify-content: center;
 }
 
 h2 {
@@ -17,10 +34,20 @@ h2 {
 
 h3 {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 header{
   text-align: center;
+}
+
+header img {
+  width: 10%;
+  height: 10%;
+}
+
+h2 {
+  margin: 20px 0px 20px 0px;
 }
 
 .card-wrap {
@@ -41,5 +68,55 @@ header{
 }
 
 .card-info {
-  margin-left: 20px;
+  margin: 10px 20px 10px 20px;
+}
+
+.icon-links {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.icon-links i {
+  color: black;
+  cursor: pointer;
+}
+
+.icon-links i:hover {
+  opacity: .5;
+}
+
+.skills-icons {
+  font-size: 40px;
+}
+
+.contact-section {
+  margin-bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  padding: 10px 0px 10px 0px;
+}
+
+
+@media (max-width: 1320px) {
+  .card-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .card,
+  .card img {
+    max-width: 320px;
+  }
 }
