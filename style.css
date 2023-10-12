@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "roboto slab","roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: menlo,"roboto slab","roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -42,11 +42,11 @@ h2 {
 h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  font-weight: 700;
+  font-weight: 500;
   color: #D6DDF1;
 }
 
-header{
+header {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -119,6 +119,7 @@ footer {
 
 footer p {
   padding: 10px 0px 10px 0px;
+  font-size: 14px;
 }
 
 
@@ -135,6 +136,18 @@ footer p {
 
   p {
     font-size: 14px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 
   .card,
