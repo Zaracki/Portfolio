@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: block;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+header{
+  text-align: center;
+}
+
+.card-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: solid 2px;
+  max-width: 420px;
+  border-radius: 5px;
+}
+
+.card img {
+  overflow: hidden;
+}
+
+.card-info {
+  margin-left: 20px;
+}
