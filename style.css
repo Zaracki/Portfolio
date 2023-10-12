@@ -4,12 +4,20 @@
   font-family: menlo,"roboto slab","roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+:root {
+  --main-white: #fefefe;
+  --main-p-white: #E4E4E4;
+  --secondary-p-blue: #8B96B7;
+  --background-blue: #17213F;
+  --title-light-blue: #D6DDF1;
+}
+
 body {
   display: block;
   position: relative;
   min-height: 100vh;
-  background-color: #17213F;
-  color: #ffffff;
+  background-color: var(--background-blue);
+  color: var(--main-white);
 }
 
 main,
@@ -24,7 +32,7 @@ footer {
 p {
   font-size: 16px;
   font-weight: 400;
-  color: #E4E4E4;
+  color: var(--main-p-white);
 }
 
 
@@ -43,7 +51,7 @@ h3 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 500;
-  color: #D6DDF1;
+  color: var(--title-light-blue);
 }
 
 header {
@@ -95,7 +103,7 @@ header {
 }
 
 .icon-links i {
-  color: #ffffff;
+  color: var(--main-white);
   cursor: pointer;
 }
 
