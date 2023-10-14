@@ -130,6 +130,9 @@ footer p {
   font-size: 14px;
 }
 
+span {
+  display: none;
+}
 
 @media (max-width: 1320px) {
   .card-wrap {
